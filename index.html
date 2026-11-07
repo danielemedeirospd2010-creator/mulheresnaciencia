@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Exposição digital sobre mulheres que fizeram história na ciência.">
+    <title>Mulheres na Ciência</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+
+<!-- ===== CABEÇALHO E MENU ===== -->
+<header>
+    <div class="container barra">
+        <a href="#inicio" class="logo">Mulheres na <span>Ciência</span></a>
+        <button id="menu-btn" aria-label="Abrir menu" aria-expanded="false">☰</button>
+        <nav id="menu" aria-label="Menu principal">
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#historia">História</a></li>
+                <li><a href="#descobertas">Descobertas</a></li>
+                <li><a href="#cientistas">Cientistas</a></li>
+                <li><a href="#importancia">Importância</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+
+<!-- ===== INÍCIO ===== -->
+<section id="inicio" class="hero">
+    <div class="container">
+        <div class="reveal">
+            <span class="selo">Exposição digital</span>
+            <h1>Mulheres na Ciência</h1>
+            <p class="destaque">Conheça mulheres que fizeram história!</p>
+            <p>
+                As mulheres tiveram um papel muito importante no desenvolvimento
+                da ciência, realizando descobertas e criando novas tecnologias.
+            </p>
+            <p>
+                Neste trabalho, vamos conhecer cientistas brasileiras e
+                internacionais que contribuíram para diferentes áreas
+                do conhecimento.
+            </p>
+            <div class="botoes">
+                <a href="#cientistas" class="btn">Conheça as cientistas</a>
+                <a href="#quiz-sec" class="btn claro">Faça o quiz</a>
+            </div>
+        </div>
+        <div class="hero-img reveal">
+            <img class="foto" src="imagens/capa.jpg" alt="Mulher cientista trabalhando em um laboratório" data-iniciais="📷 Coloque aqui sua foto (imagens/capa.jpg)">
+        </div>
+    </div>
+</section>
+
+<!-- ===== HISTÓRIA ===== -->
+<section id="historia" class="secao faixa">
+    <div class="container">
+        <h2>História</h2>
+        <p class="sub">
+            Ao longo do tempo, muitas mulheres enfrentaram dificuldades
+            para estudar e trabalhar na ciência. Mesmo assim, elas
+            conseguiram realizar grandes descobertas.
+        </p>
+        <div class="grade">
+            <article class="cartao reveal"><span class="icone">🚪</span><h3>Portas fechadas</h3><p>Por muito tempo, universidades e laboratórios não aceitavam mulheres. Muitas estudaram em casa ou com ajuda de familiares.</p></article>
+            <article class="cartao reveal"><span class="icone">✍️</span><h3>Pouco reconhecimento</h3><p>Várias cientistas tiveram seus trabalhos creditados a colegas homens ou foram esquecidas pela história.</p></article>
+            <article class="cartao reveal"><span class="icone">⚖️</span><h3>Menos oportunidades</h3><p>Salários menores, poucos cargos de liderança e preconceito fizeram a carreira científica ser mais difícil.</p></article>
+            <article class="cartao reveal"><span class="icone">🌱</span><h3>Mudança aos poucos</h3><p>Com muita persistência, as mulheres conquistaram espaço e hoje inspiram novas gerações de meninas.</p></article>
+        </div>
+    </div>
+</section>
+
+<!-- ===== DESCOBERTAS ===== -->
+<section id="descobertas" class="secao">
+    <div class="container">
+        <h2>Descobertas</h2>
+        <p class="sub">
+            As cientistas fizeram pesquisas importantes na medicina,
+            na química, na física e em outras áreas, ajudando a
+            transformar a sociedade.
+        </p>
+        <div class="grade">
+            <article class="cartao item-desc reveal"><span class="ano">1903</span><div><h3>Radioatividade</h3><p>Marie Curie recebeu o Nobel de Física pelos estudos sobre radioatividade e, em 1911, o Nobel de Química.</p></div></article>
+            <article class="cartao item-desc reveal"><span class="ano">1952</span><div><h3>Estrutura do DNA</h3><p>A famosa “Fotografia 51”, feita por Rosalind Franklin, foi fundamental para entender a forma do DNA.</p></div></article>
+            <article class="cartao item-desc reveal"><span class="ano">1965</span><div><h3>Kevlar</h3><p>Stephanie Kwolek criou a fibra mais resistente que o aço, usada em coletes de proteção.</p></div></article>
+            <article class="cartao item-desc reveal"><span class="ano">Hoje</span><div><h3>Polilaminina</h3><p>Tatiana Sampaio pesquisa uma substância com potencial para ajudar a tratar lesões na medula espinhal.</p></div></article>
+        </div>
+    </div>
+</section>
+
+<!-- ===== CIENTISTAS ===== -->
+<section id="cientistas" class="secao faixa">
+    <div class="container">
+        <h2>Conheça as cientistas</h2>
+        <p class="sub">
+            Escolha uma cientista para conhecer sua história,
+            suas descobertas e sua importância para a ciência.
+        </p>
+        <div class="grade" style="grid-template-columns:repeat(auto-fit,minmax(290px,420px));justify-content:center">
+
+            <article class="cartao cientista reveal">
+                <img class="foto" src="imagens/tatiana.jpg" alt="Foto de Tatiana Sampaio" data-iniciais="TS">
+                <div class="corpo">
+                    <span class="etiqueta">Cientistas brasileiras</span>
+                    <h3>Tatiana Coelho de Sampaio</h3>
+                    <p>Pesquisadora da área de biologia, estuda como o corpo pode se regenerar após lesões no sistema nervoso.</p>
+                    <ul><li>Pesquisa com a <strong>polilaminina</strong>, voltada a lesões da medula espinhal</li>
+                        <li>Trabalho que mostra a força da ciência feita no Brasil</li></ul>
+                    <a href="#tatiana" class="btn">Conheça sua história</a>
+                </div>
+            </article>
+
+            <article class="cartao cientista reveal">
+                <img class="foto" src="imagens/stephanie.jpg" alt="Foto de Stephanie Kwolek" data-iniciais="SK">
+                <div class="corpo">
+                    <span class="etiqueta">Cientistas internacionais</span>
+                    <h3>Stephanie Louise Kwolek</h3>
+                    <p>Química polonesa-americana (1923–2014) que trabalhou na empresa DuPont, nos Estados Unidos.</p>
+                    <ul><li>Descobriu o <strong>Kevlar</strong> em 1965</li>
+                        <li>Fibra leve e muito mais resistente que o aço</li></ul>
+                    <a href="#stephanie" class="btn">Conheça sua história</a>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+
+
+<!-- ===== TATIANA COELHO DE SAMPAIO ===== -->
+<section id="tatiana">
+    <div class="perfil">
+        <div class="container">
+            <img class="foto" src="imagens/tatiana.jpg" alt="Foto de Tatiana Coelho de Sampaio" data-iniciais="TS">
+            <div>
+                <span class="etiqueta">Cientista brasileira</span>
+                <h1>Tatiana Coelho de Sampaio</h1>
+                <p>Pesquisadora e professora da Universidade Federal do Rio de Janeiro (UFRJ), na área de biologia, dedicada a estudar como o corpo pode se recuperar de lesões no sistema nervoso.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="padding-bottom:3rem">
+        <div class="cartao bloco reveal"><h2>Quem é</h2><p>Tatiana Sampaio é uma cientista brasileira que dedica sua carreira a entender como as células e as proteínas do nosso corpo ajudam na regeneração dos tecidos. Seu trabalho é um exemplo de ciência de qualidade feita em universidades públicas do Brasil.</p></div>
+        <div class="cartao bloco reveal"><h2>A polilaminina</h2><p>A laminina é uma proteína que existe naturalmente no corpo e ajuda as células nervosas a se organizarem e crescerem. A polilaminina é uma versão dessa proteína preparada em laboratório, que está sendo estudada para ajudar no tratamento de lesões na medula espinhal, que podem causar perda de movimentos.</p></div>
+        <div class="cartao bloco reveal"><h2>Por que é importante?</h2><p>Lesões na medula afetam a vida de muitas pessoas, e hoje há poucas opções de tratamento. A pesquisa ainda passa por etapas de estudo e testes para comprovar sua segurança e eficácia, mas traz esperança e mostra o potencial da ciência brasileira e das mulheres cientistas.</p></div>
+        <div class="navpag">
+            <a href="#cientistas" class="btn claro">← Voltar às cientistas</a>
+            <a href="#stephanie" class="btn">Conhecer Stephanie Kwolek →</a>
+        </div>
+    </div>
+</section>
+
+<!-- ===== STEPHANIE LOUISE KWOLEK ===== -->
+<section id="stephanie">
+    <div class="perfil">
+        <div class="container">
+            <img class="foto" src="imagens/stephanie.jpg" alt="Foto de Stephanie Louise Kwolek" data-iniciais="SK">
+            <div>
+                <span class="etiqueta">Cientista internacional</span>
+                <h1>Stephanie Louise Kwolek</h1>
+                <p>Química polonesa-americana (1923–2014) que trabalhou por décadas na empresa DuPont, nos Estados Unidos, e criou uma das fibras mais resistentes já inventadas.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="padding-bottom:3rem">
+        <div class="cartao bloco reveal"><h2>Quem foi</h2><p>Stephanie Kwolek nasceu na Pensilvânia, filha de imigrantes poloneses. Queria estudar medicina, mas acabou seguindo a química e entrou na DuPont em 1946, onde pesquisou novos materiais por mais de 40 anos.</p></div>
+        <div class="cartao bloco reveal"><h2>A descoberta do Kevlar</h2><p>Em 1965, ao trabalhar com polímeros, Stephanie percebeu que uma mistura diferente do normal, mais líquida e turva, poderia render fibras fortíssimas. Mesmo com dúvidas de colegas, ela insistiu nos testes e descobriu o Kevlar, fibra leve e, por peso, muito mais resistente que o aço.</p></div>
+        <div class="cartao bloco reveal"><h2>Aplicações e importância</h2><p>O Kevlar é usado em coletes de proteção, capacetes, pneus, cabos, equipamentos esportivos e peças de aviões e barcos. Ele já ajudou a salvar muitas vidas e mostra como a curiosidade e a persistência de uma cientista podem mudar o mundo.</p></div>
+        <div class="navpag">
+            <a href="#cientistas" class="btn claro">← Voltar às cientistas</a>
+            <a href="#tatiana" class="btn">Conhecer Tatiana Sampaio →</a>
+        </div>
+    </div>
+</section>
+
+<!-- ===== IMPORTÂNCIA ===== -->
+<section id="importancia" class="secao">
+    <div class="container">
+        <h2>Importância</h2>
+        <p class="sub">
+            As descobertas científicas ajudam a melhorar a vida das
+            pessoas e mostram como a participação das mulheres é
+            importante para o avanço da ciência.
+        </p>
+    </div>
+</section>
+
+<!-- ===== CURIOSIDADES / VOCÊ SABIA? ===== -->
+<section id="curiosidades" class="secao faixa">
+    <div class="container">
+        <h2>Você sabia?</h2>
+        <p class="sub">Curiosidades sobre mulheres cientistas.</p>
+        <div class="grade">
+            <article class="cartao reveal"><span class="icone">🔬</span><h3>Novos materiais</h3><p>Existem cientistas que descobriram novos materiais.</p></article>
+            <article class="cartao reveal"><span class="icone">🧬</span><h3>Tratamento de doenças</h3><p>Algumas pesquisas ajudam no tratamento de doenças.</p></article>
+            <article class="cartao reveal"><span class="icone">💡</span><h3>Invenções</h3><p>Mulheres cientistas contribuíram para diversas invenções.</p></article>
+            <article class="cartao reveal"><span class="icone">🏅</span><h3>Dois Nobel</h3><p>Marie Curie foi a primeira pessoa a ganhar Prêmios Nobel em duas áreas diferentes: Física e Química.</p></article>
+            <article class="cartao reveal"><span class="icone">💻</span><h3>Primeira programadora</h3><p>Ada Lovelace escreveu, no século 19, o que é considerado o primeiro algoritmo para uma máquina.</p></article>
+            <article class="cartao reveal"><span class="icone">🦺</span><h3>Proteção que salva</h3><p>O Kevlar é usado em coletes, capacetes e até em cabos e pneus.</p></article>
+        </div>
+    </div>
+</section>
+
+<!-- ===== QUIZ ===== -->
+<section id="quiz-sec" class="secao">
+    <div class="container">
+        <h2>Quiz das cientistas</h2>
+        <p class="sub">Teste o que você aprendeu sobre Tatiana Sampaio e Stephanie Kwolek.</p>
+        <div class="quiz reveal" id="quiz">
+            <div class="progresso"><div></div></div>
+            <div id="quiz-pergunta"></div>
+            <div id="quiz-fim" class="placar" hidden>
+                <h3>Sua pontuação</h3>
+                <p class="nota" id="quiz-nota"></p>
+                <p id="quiz-msg"></p><br>
+                <button class="btn" id="quiz-reiniciar">Jogar de novo</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== SUGESTÕES ===== -->
+<section id="sugestoes" class="secao faixa">
+    <div class="container">
+        <h2>Deixe sua sugestão</h2>
+        <p class="sub">Conhece outra mulher importante para a ciência? Indique!</p>
+        <form id="form-sugestao" class="reveal" novalidate>
+            <div class="campo"><label for="nome">Seu nome:</label>
+                <input type="text" id="nome" name="nome" autocomplete="name"><span class="erro"></span></div>
+            <div class="campo"><label for="cientista">Cientista a adicionar:</label>
+                <input type="text" id="cientista" name="cientista"><span class="erro"></span></div>
+            <div class="campo"><label for="motivo">Motivo da indicação:</label>
+                <textarea id="motivo" name="motivo" rows="4"></textarea><span class="erro"></span></div>
+            <button type="submit" class="btn">Enviar</button>
+            <p id="confirmacao" class="confirmacao" role="status" hidden></p>
+        </form>
+    </div>
+</section>
+
+</main>
+
+<!-- ===== RODAPÉ ===== -->
+<footer>
+    <div class="container">
+        <h2>Mulheres na Ciência</h2>
+        <p class="frase">“A ciência fica mais bonita quando todas as pessoas podem fazer parte dela.”</p>
+        <small>site teste pra professora yasmin,desenvolvido por Dani do 1 redes ></div></small>
+        <small>© <span id="ano"></span> Mulheres na Ciência,[como a nini fala: Pretty girls don't do drama, unless we wanna. It'll be depending on the day.”].</small>
+    </div>
+</footer>
+
+<script src="JS/script.js"></script>
+</body>
+</html>
